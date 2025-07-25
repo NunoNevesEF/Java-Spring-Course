@@ -1,0 +1,7 @@
+label,input,button{
+    margin:10px;
+    padding:5px;
+    display: flex;               /* necessário para alinhamento vertical */
+    justify-content: center;     /* centra horizontalmente */
+    margin:auto;
+}
