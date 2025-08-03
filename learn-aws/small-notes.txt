@@ -1,0 +1,12 @@
+Compute engine no google could = EC2 instances (Elastic Compute Cloud)
+Autoscalling e loadBalance -> usar Elastic Beanstalk para EC2
+
+Usar RDS se a app tem uma bd relacional e queiras guardar na cloud tbm.
+
+ECS - elastic container service (mesmo funcionalidade que kubernetes mas da amazon )
+ 
+Usado para correr containers e tbm tem propriedade de autscalling etc...
+
+AWS lambda - forma de apenas preocupar com o teu codigo e não com definições de servidor. Aqui pode se criar uma function, é parecido com as cloud functions do google cloud. É uma solução serverless, apenas das deploy desta function, como no google cloud apenas tinhas uma função para decidir no cliente a que instancia do servidor é que ele se ia conectar.
+
+
